@@ -1,0 +1,53 @@
+.massage
+{
+    font-family: arial, serif;
+    font-size: 25px;
+    letter-spacing: inherit;
+    color: #484848;
+    background-image: url("//");
+    background-repeat: no-repeat;
+    image-resolution: inherit;
+    margin-left: 400px;
+    text-align: left;
+}
+.facial
+{
+    
+    font-family: sans-serif;
+    font-size: 30px;
+    letter-spacing: inherit;
+    color: rebeccapurple;
+    background-image: url("//");
+    background-repeat: no-repeat;
+    image-resolution: inherit;
+    text-align: right;
+
+}
+.nail
+{
+     font-family: Ebrima;
+    font-size: 30px;
+    letter-spacing: inherit;
+    color: deeppink;
+    background-image: url("//");
+    background-repeat: no-repeat;
+    image-resolution: inherit;
+    text-align: left;
+}
+.hair
+{_
+
+ font-family: arial, serif;
+    font-size: 30px;
+    letter-spacing: inherit;
+    color: darkgoldenrod;
+    background-image: url("//");
+    background-repeat: no-repeat;
+    image-resolution: inherit;
+    text-align: left;
+}
+.heady
+{
+    color: #000000;
+    text-underline: rebeccapurple;
+}

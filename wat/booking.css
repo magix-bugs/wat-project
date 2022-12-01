@@ -1,0 +1,46 @@
+body
+{
+ position: absolute;
+  min-width: 10rem;
+  padding: 0.5rem 0;
+  margin: 0;
+  font-size: 1rem;
+  color: aqua;
+  white-space: nowrap;
+  list-style: none;
+  background-color: black;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0.25rem;
+  border-color:solid grey;
+}
+.heady
+{
+font-size:200%;
+}
+.massage
+{
+align-items: flex-start;
+  justify-content: center;
+}
+
+.nails
+{
+
+  align-items: flex-start;
+  justify-content: center;
+  display:block;
+
+}
+
+.facial
+{
+align-items: flex-start;
+  justify-content: center;
+
+}
+.duration
+.dropdown-toggle-split::before {
+  margin-right: 0;
+  align-items: flex-start;
+  justify-content: center;
+}

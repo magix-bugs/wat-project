@@ -1,0 +1,113 @@
+body{
+background-color:black;
+background-repeat:no-repeat;
+background-position:right;
+    display:flex;
+}
+.logo{
+
+padding:30px;
+margin:30px;
+height:90px;
+width:350px;
+}
+.watz{
+font-family:monospace;
+font-style:italic;
+font-size:250%;
+margin-top:20px;
+animation:animate 4s linear infinite;
+}
+@keyframes animate{
+0%{
+color:purple;
+text-shadow:none;
+}
+10%{
+color:purple;
+text-shadow:none;
+}20%{
+color:purple;
+text-shadow:0 0 10px #fff990 , 0 0 20px #ffcc99;
+}30%{
+color:purple;
+text-shadow:none;
+}35%{
+color:pink;
+text-shadow:none;
+}
+}
+.menu
+{
+font-family:arial;
+font-size:150%;
+text-shadow:none;
+text-decoration:none;
+color:purple;
+background-color:transparent;
+
+list-style:none;
+}
+.services
+{
+list-style:none;
+margin:30px;
+padding:30px;
+font-family:sans serif;
+font-size:650%;
+
+color:gold;
+
+}
+.service:hover
+{
+transform:rotate(10deg)
+}
+.social-media
+{
+font-family:sans serif;
+font-size:180%;
+background-color:transparent;
+color:neon;
+    list-style:none;
+}
+.gala
+{
+    font-family: "Microsoft Sans Serif";
+    font-size: 180%;
+}
+.vision
+{
+
+position:abdolute;
+display:block;
+text-decoration:overline;
+margin:10px;
+padding:10px;
+height:200px;
+list-style:none;
+letter-spacing:10%;
+font-size:350%;
+animation:anime 4s linear infinite;
+}
+@keyframes anime{
+0%{
+color:rosybrown;
+text-shadow:none;
+}
+10%{
+color:gold;
+text-shadow:none;
+}20%{
+color:violet;
+text-shadow:0 0 10px #fff990 , 0 0 20px #ffcc99;
+}30%{
+color:navy;
+text-shadow:none;
+}35%{
+color:indigo;
+text-shadow:none;
+}
+}
+
+

@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    background-color: black;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.beauty {
+    background-color: indigo;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    color: white;
+}
+
+header {
+    background-color: grey;
+    color: white;
+    padding: top;
+    min-height: 70px;
+    border-bottom: purple 3px solid;
+}
+
+header a {
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+}
+
+header ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+header li {
+    list-style: none;
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding {
+    margin-top: 30px;
+    font-size: 220%;
+    float: left;
+}
+
+.highlight {
+    color: purple;
+    font-weight: bold;
+}
+
+header nav {
+    float: right;
+    margin-top: 20px;
+}
+
+.current :hover {
+    color: orange;
+}
+
+#glamour {
+    min-height: 400px;
+    text-align: center;
+    color: ffffff;
+}
+
+#glamour h1 {
+    color: violet;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+#glamour p {
+    font-size: 20px;
+}
+
+#boxes {
+    margin-top: 20px;
+}
+
+#boxes .box {
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+    line-spacing: 1.5em;
+}
+
+.current ul {
+    display: block;
+}
+
+.pop-up ul .current {
+    display: inline;
+}
+
+.button {
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 1000px;
+    margin-right: 120px;
+    background-color: black;
+    text-align: center;
+    animation: animate 4s linear infinite
+}
+
+@keyframes animate {
+    0% {
+        color: purple;
+        text-shadow: none;
+    }
+    10% {
+        color: pink;
+        text-shadow: none;
+    }
+    20% {
+        color: red;
+        text-shadow: #fff990, #ffcc99;
+    }
+    30% {
+        color: violet;
+        text-shadow: none;
+    }
+    35% {
+        color: pink;
+        text-shadow: none;
+    }
+}
+
+.button button {
+    font-size: 40px;
+    font-weight: bold;
+    background-color: black;
+}
+
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    background-color: purple;
+    color: white;
+    text-align: center;
+}
